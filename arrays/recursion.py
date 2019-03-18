@@ -90,3 +90,5 @@ def reverse(word):
         return ""
     else:
         return word[-1] + reverse(word[:-1])
+
+print(sum_array([8, 3, 2, 7, 4]))
