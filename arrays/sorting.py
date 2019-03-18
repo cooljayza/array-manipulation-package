@@ -39,9 +39,9 @@ def quick_sort(items, index=-1):
     list
         list of elements in items in ascending order
     """
-    len = len(items)
+    length = len(items)
 
-    if len <= 1:
+    if length <= 1:
         return items
 
     pivot = items[index]
@@ -65,7 +65,7 @@ def merge(A, B):
     """
     the merge algorithm takes in two unsorted list of numbers.
     Merges them and returns a list in ascending order.
-    
+
     Parameters
     ----------
     A : list
