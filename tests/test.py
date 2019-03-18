@@ -1,4 +1,4 @@
-from array import myFunction
+from arrays import myFunction
 
 def test_sum_array():
     """
