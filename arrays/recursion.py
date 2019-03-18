@@ -38,10 +38,11 @@ def fibonacci(n):
         >> fibonacci(3)
         2
     """
+    print(n)
     if n <= 1:
         return 1
     else:
-        return fibonacci(n-1)*fibonacci(n-2)
+        return fibonacci(n-1) + fibonacci(n-2)
 
 
 def factorial(n):
@@ -91,4 +92,4 @@ def reverse(word):
     else:
         return word[-1] + reverse(word[:-1])
 
-print(sum_array([8, 3, 2, 7, 4]))
+

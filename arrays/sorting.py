@@ -109,11 +109,11 @@ def merge_sort(items):
     list
         list of elements in items in ascending order
     """
-    len = len(items)
-    if len == 1:
+    length = len(items)
+    if length == 1:
         return items
 
-    m = int(len / 2)
+    m = int(length / 2)
     i1 = merge_sort(items[:m])
     i2 = merge_sort(items[m:])
 
