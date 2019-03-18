@@ -38,7 +38,6 @@ def fibonacci(n):
         >> fibonacci(3)
         2
     """
-    print(n)
     if n <= 1:
         return 1
     else:
@@ -91,5 +90,3 @@ def reverse(word):
         return ""
     else:
         return word[-1] + reverse(word[:-1])
-
-
