@@ -15,7 +15,7 @@ def sum_array(array):
     if len(array) == 0:
         return 0
     else:
-        return array[-1] + sum_array(array.pop())
+        return array[-1] + sum_array(array[:-1])
 
 def fibonacci(n):
     """
